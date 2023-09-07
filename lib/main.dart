@@ -10,8 +10,41 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Scaffold(appBar: AppBar(backgroundColor: Colors.amberAccent,),
-      body: Container(color: Colors.lightBlueAccent, child: Text("Hello! How are you doing? its my 3 App in flutter - Adil Talasbek")),)
+      home: Scaffold(
+        appBar: AppBar(
+          backgroundColor: Colors.blue, 
+        ),
+        body: Center(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Container(
+                color: Colors.green, 
+                padding: EdgeInsets.all(30.0),
+                margin: EdgeInsets.all(30.0),
+                child: Text(
+                  "Adil Talasbek",
+                  style: TextStyle(
+                    fontSize: 34,
+                    color: Colors.white, 
+                  ),
+                ),
+              ),
+              SizedBox(height: 20),
+              Container(
+                color: Colors.orange, 
+                child: Text(
+                  "ИС 20.810 digital marketing",
+                  style: TextStyle(
+                    fontSize: 24,
+                    color: Colors.black, 
+                  ),
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
     );
   }
 }
