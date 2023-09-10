@@ -12,18 +12,18 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          backgroundColor: Colors.blue, 
+          backgroundColor: Colors.gray, 
         ),
         body: Center(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Container(
-                color: Colors.green, 
-                padding: EdgeInsets.all(30.0),
+                color: Colors.gray, 
+                padding: EdgeInsets.all(10.0),
                 margin: EdgeInsets.all(30.0),
                 child: Text(
-                  "Adil Talasbek",
+                  "My 4 app",
                   style: TextStyle(
                     fontSize: 34,
                     color: Colors.white, 
@@ -32,11 +32,11 @@ class MyApp extends StatelessWidget {
               ),
               SizedBox(height: 20),
               Container(
-                color: Colors.orange, 
+                color: Colors.pink, 
                 child: Text(
-                  "ИС 20.810 digital marketing",
+                  "Karnakov Aisultan ИС 20.810 digital marketing",
                   style: TextStyle(
-                    fontSize: 24,
+                    fontSize: 26,
                     color: Colors.black, 
                   ),
                 ),
